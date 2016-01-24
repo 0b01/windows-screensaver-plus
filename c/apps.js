@@ -186,17 +186,6 @@ define({
     }
   }
 
-  ,'screensaverpp': {
-    exec: function(obj) {
-       $window({
-          title: blah,
-         automaximize: true,
-         baseClass: 'ui_desktop_layer',
-         url: document.URL+ '/c/programs/apps/screensaverpp/index.html',
-       });
-    }
-  }
-
   ,'3d': {
     exec: function(txt, color) {
 
