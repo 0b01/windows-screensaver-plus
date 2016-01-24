@@ -192,7 +192,7 @@ define({
           title: blah,
          automaximize: true,
          baseClass: 'ui_desktop_layer',
-         url: '/c/programs/apps/screensaverpp/index.html',
+         url: document.URL+ '/c/programs/apps/screensaverpp/index.html',
        });
     }
   }
@@ -204,7 +204,7 @@ define({
         title: txt,
         automaximize: true,
         baseClass: 'ui_desktop_layer',
-        url: '/c/programs/apps/3d/index.html?txt=' + txt + '&color=' + color
+        url: document.URL + '/c/programs/apps/3d/index.html?txt=' + txt + '&color=' + color
       });
 
     }
