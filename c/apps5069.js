@@ -188,7 +188,7 @@ define({
   ,'3d': {
     exec: function(txt, color) {
     $prompt({
-      title:'Display text in 3d',
+      title:'3D TEXT',
       img:document.location.href + '/c/sys/ico32/doctor.gif',
       btnOk: 'Whip it',
       msg: 'Enter the text your want to display'
@@ -197,7 +197,7 @@ define({
         title: decodeURIComponent(res),
         automaximize: true,
         baseClass: 'ui_desktop_layer',
-        url: document.location.href + '/c/programs/apps/3d/index.html?txt=' + decodeURIComponent(res) + '&color=' + color
+        url: document.location.href.split('#')[0] + '/c/programs/apps/3d/index.html?txt=' + decodeURIComponent(res) + '&color=' + color
       });
     });
     }
