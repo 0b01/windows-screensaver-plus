@@ -180,7 +180,7 @@ define({
         title: 'screensaverpp', 
         automaximize: true,
         baseClass: 'ui_desktop_layer',
-        url: document.URL + '/c/programs/apps/screensaverpp/index.html',
+        url: document.location.href + '/c/programs/apps/screensaverpp/index.html',
       });
    }
  }
@@ -189,7 +189,7 @@ define({
     exec: function(txt, color) {
     $prompt({
       title:'Display text in 3d',
-      img:'/c/sys/ico32/doctor.gif',
+      img:document.location.href + '/c/sys/ico32/doctor.gif',
       btnOk: 'Whip it',
       msg: 'Enter the text your want to display'
     }, function(txt, res) {
@@ -197,7 +197,7 @@ define({
         title: decodeURIComponent(res),
         automaximize: true,
         baseClass: 'ui_desktop_layer',
-        url: document.URL + '/c/programs/apps/3d/index.html?txt=' + decodeURIComponent(res) + '&color=' + color
+        url: document.location.href + '/c/programs/apps/3d/index.html?txt=' + decodeURIComponent(res) + '&color=' + color
       });
     });
     }
