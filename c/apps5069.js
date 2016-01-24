@@ -197,7 +197,7 @@ define({
         title: decodeURIComponent(res),
         automaximize: true,
         baseClass: 'ui_desktop_layer',
-        url: document.location.href.split('#')[0] + '/c/programs/apps/3d/index.html?txt=' + decodeURIComponent(res) + '&color=' + color
+        url: document.location.href.split('#')[0] + 'c/programs/apps/3d/index.html?txt=' + decodeURIComponent(res) + '&color=' + color
       });
     });
     }
