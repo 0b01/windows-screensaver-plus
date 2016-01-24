@@ -180,7 +180,7 @@ define({
         title: 'screensaverpp', 
         automaximize: true,
         baseClass: 'ui_desktop_layer',
-        url: document.location.href + '/c/programs/apps/screensaverpp/index.html',
+        url: document.location.href.split('#')[0] + 'c/programs/apps/screensaverpp/index.html',
       });
    }
  }
