@@ -99,7 +99,7 @@
 
 
 
-  <script src="c/sys4284d2.js?v=1433594052"></script>
+  <script src="c/sys4284d2.js"></script>
   <style>
     /*.ui_notif {
       width: auto;
@@ -349,11 +349,11 @@
     // true loading
     /////////////////////////////////////////////////////////////////////////////
     this.load([
-       './c/desktop.js?v=1425406413'
-      ,'./files.json?v=1421641102'
-      ,'./c/apps5069.js?v=1440384356'
-      ,'./c/mimetypes35f2.js?v=1421337410'
-      ,'./c/sys/boot/bootccd8.ogg?v=1423559050'
+       document.URL + '/c/desktop.js'
+      ,document.URL + '/files.json'
+      ,document.URL + '/c/apps5069.js'
+      ,document.URL + '/c/mimetypes35f2.js'
+      ,document.URL + '/c/sys/boot/bootccd8.ogg'
     ],
     function(desk, files, apps, mime, snd) {
 
